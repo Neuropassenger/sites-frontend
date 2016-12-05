@@ -1,0 +1,291 @@
+@import 'https://fonts.googleapis.com/css?family=Lobster|Noto+Sans:400,700,700i&subset=cyrillic';
+
+.container{
+    width: 1170px !important;
+}
+
+body {
+	background: #d1bfc9;
+}
+
+#header-wrapper {
+	background: url(/img/header_bg.jpg);
+	height: 460px;
+	padding: 0;
+	position: relative;
+	color: white;
+}
+
+.topmenu-container ul {
+	background: rgba(0, 0, 0, 0.8);
+	padding-left: 15px;
+}
+
+.topmenu-container ul a {
+	color: #fff;
+}
+
+.topmenu-container > ul > li > a:hover {
+	color: #a52bcc;
+}
+
+nav.topmenu-container {
+	display: block;
+	height: 40px;
+	margin: 0 auto;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.topmenu {
+	line-height: 26px;
+	font-size: 0px;
+}
+
+.topmenu > li {
+	text-align: center;
+	height: 40px;
+	display: inline-block;
+	position: relative;
+	font-size: 18px;
+}
+
+.topmenu a {
+	display: block;
+	padding: 6px;
+	margin-right: 20px;
+	text-decoration: none;
+	outline: none;
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: 400;
+	letter-spacing: 0.2em;
+}
+
+.slide1-wrapper {
+	position: relative;
+	height: 420px;
+	padding: 0;
+}
+
+.slide2-wrapper {
+	background: rgba(0, 0, 0, 0.8);
+	height: 420px;
+}
+
+.slide2-wrapper p {
+	font-family: 'Lobster', cursive;
+	font-size: 36px;
+	text-align: center;
+	letter-spacing: 0.1em;
+}
+
+.slide2-wrapper p:first-child {
+	margin-top: 150px;
+	font-family: 'Lobster', cursive;
+	font-size: 36px;
+	text-align: center;
+}
+
+.hello {
+	height: 130px;
+	position: absolute;
+	bottom: 0px;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.hello .col-xs-4 {
+	font-family: 'Lobster', cursive;
+	font-size: 36px;
+	text-align: center;
+	line-height: 130px;
+	letter-spacing: 0.2em;
+}
+
+.hello .col-xs-8 {
+	margin-top: 12.5px;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 12px;
+	letter-spacing: 0.1em;
+	padding-right: 30px !important;
+}
+
+.logo {
+	width: 310px;
+	margin-top: 60px;
+	margin-left: 100px;
+	float: left;
+}
+
+.logo h1 {
+	font-family: 'Lobster', cursive;
+	font-size: 60px;
+	letter-spacing: 0.2em;
+	margin-bottom: 0px;
+}
+
+.logo li {
+	font-family: 'Noto Sans', sans-serif;
+	line-height: 15px;
+}
+
+a.btn {
+	padding: 0;
+	margin-top: 130px;
+	border-radius: 8px;
+	width: 322px;
+	height: 64px;
+	background: rgba(0, 0, 0, 0.8);
+	line-height: 64px;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 24px !important;
+	text-align: center;
+	font-weight: 700 !important;
+	letter-spacing: 0.5em;
+	color: white;
+	float: left;
+}
+
+a.btn:hover {
+	background: rgba(255, 255, 255, 0.8);
+	color: #a52bcc;
+}
+
+a.btn:focus {
+	color: #fff;
+}
+
+a.button, a.button:active, a.button:focus {
+    outline: none !important;
+}
+
+#valery {
+	margin-left: 750px;
+}
+
+#valery h2 {
+	font-family: 'Lobster', cursive;
+	font-size: 36px;
+	letter-spacing: 0.2em;
+}
+
+.photo-wrapper {
+	margin-left: 100px;
+	border-radius: 100px;
+	width: 192px;
+	height: 192px;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.photo {
+	margin-top: 11px;
+	margin-left: 11px;
+	border-radius: 100px;
+	width: 171px;
+	height: 171px;
+	border: none;
+}
+
+.main-container {
+	background: #ebebeb;
+	color: #000;
+}
+
+.sidebar h3 {
+	font-size: 18px;
+	letter-spacing: 0.2em;
+	font-weight: 700;
+}
+
+.sidebar {
+	font-family: 'Noto Sans', sans-serif;
+	text-align: center;
+}
+
+.sidebar ul {
+	margin-top: 40px;
+}
+
+.sidebar li {
+	font-size: 14px;
+	letter-spacing: 0.075em;
+	padding-bottom: 20px;
+}
+
+.sidebar li a {
+	color: black;
+	text-decoration: none;
+}
+
+.sidebar li a:hover{
+	color: #a52bcc;
+}
+
+.main-container h2 {
+	font-family: 'Lobster', cursive;
+	font-size: 30px;
+	letter-spacing: 0.1em;
+	text-align: center;
+}
+
+.date, .cat, .author {
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 14px;
+	letter-spacing: 0.075em;
+	font-weight: 700;
+	font-style: italic;
+}
+
+.cat, .author {
+	float: right;
+}
+
+.main-container p {
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+footer {
+	background: url(/img/footer_bg.jpg);
+	padding: 0 !important;
+}
+
+footer p {
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 14px;
+	color: #fff;
+	margin: 0;
+	text-align: center;
+	letter-spacing: 0.2em;
+}
+
+footer p:first-child {
+	padding-top: 15px;
+}
+
+.shadow {
+	height: 70px;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.ser-name {
+	float: right;
+	padding-right: 0px;
+}
+
+.ser-cost {
+	float: left;
+	padding-left: 30px;
+}
+
+div.cost-wrapper-first {
+	margin-top: 20px;
+}
+
+div.cost-wrapper-last {
+	margin-bottom: 15px;
+}
